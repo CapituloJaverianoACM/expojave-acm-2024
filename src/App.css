@@ -4,6 +4,11 @@
     height: 100vh;
     color: whitesmoke;
     font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
 
 .imagenLogo{
