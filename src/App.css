@@ -1,8 +1,41 @@
+.App{
+    background: radial-gradient(circle, #409E8D 8%, #24262B 88%);
+    background-color: (45deg, #409E8D 8%, #24262B 88%);
+    height: 100vh;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
 .imagenLogo{
-    width: 100px;
-    height: 100px;
+    height: 200px;
+    width: auto;
     margin: 0 auto;
     display: block;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 20px;
+}
+
+.question-section, .answer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-section{
+    margin-top: 20px;
+}
+
+.answer-section button{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border:none;
+    transition-duration: 0.5s;
+    font-size: 15px;
+}
+
+.answer-section button:hover{
+    scale: 1.1;
 }
