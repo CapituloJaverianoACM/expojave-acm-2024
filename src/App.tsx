@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import { Pregunta } from './models/preguntaModel';
-import logoACM from './assets/images/acm_logo.png'  ;
+import logoACM from './assets/images/acm_logo.png';
+import ReglasComponent from './components/ReglasComponent/ReglasComponent';
 
 
 const preguntas: Pregunta[] = [
@@ -31,6 +32,7 @@ function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [mostrarPuntaje, setMostrarPuntaje] = useState<boolean>(false);
   const [puntaje, setPuntaje] = useState<number>(0);
+  const [mostrarReglamento, setMostrarReglamento] = useState<boolean>(true);
 
   const handleAnswerOptionClick = (isCorrect: boolean) => {
     if (isCorrect) {
@@ -47,8 +49,13 @@ function App() {
     }
   };
 
+  const handleCloseReglamento = () => {
+    setMostrarReglamento(false);
+  };
+
   return (
     <div className="App">
+      {mostrarReglamento && <ReglasComponent onClose={handleCloseReglamento} />}
       <img src={logoACM} alt="Logo ACM" className='imagenLogo'/>
       {mostrarPuntaje ? (
         <div className="section puntaje-section">
