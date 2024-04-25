@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import { preguntas } from './data/preguntas'; 
-import { Pregunta } from './models/preguntaModel'; 
+import { preguntas } from './data/preguntas'; // Importa el array de preguntas
+import { Pregunta } from './models/preguntaModel'; // Importa el tipo Pregunta
 import logoACM from './assets/images/acm_logo.png';
 import ReglasComponent from './components/ReglasComponent/ReglasComponent';
+import ConfirmacionRetiroComponent from './components/ConfirmacionRetiroComponent/ConfirmacionRetiroComponent';
 
 function prguntasAleatorias(array: Pregunta[]): Pregunta[] {
   let tempArray = [...array];
@@ -20,6 +21,7 @@ function App() {
   const [mostrarPuntaje, setMostrarPuntaje] = useState(false);
   const [puntaje, setPuntaje] = useState(0);
   const [mostrarReglamento, setMostrarReglamento] = useState(true);
+  const [mostrarConfirmacionRetiro, setMostrarConfirmacionRetiro] = useState(false);
 
   useEffect(() => {
     setPreguntasAleatorias(prguntasAleatorias(preguntas));
@@ -37,6 +39,19 @@ function App() {
     } else {
       setMostrarPuntaje(true);
     }
+  };
+
+  const handleRetirarseClick = () => {
+    setMostrarConfirmacionRetiro(true);
+  };
+
+  const confirmarRetiro = () => {
+    setMostrarPuntaje(true);
+    setMostrarConfirmacionRetiro(false);
+  };
+
+  const cancelarRetiro = () => {
+    setMostrarConfirmacionRetiro(false);
   };
 
   const handleCloseReglamento = () => {
@@ -75,7 +90,18 @@ function App() {
               </div>
             </>
           )}
+          <div className="retirarse-section" style={{ textAlign: 'right', marginTop: '20px' }}>
+            <button className="retirarse-button" onClick={handleRetirarseClick}>
+              Retirarse
+            </button>
+          </div>
         </>
+      )}
+      {mostrarConfirmacionRetiro && (
+        <ConfirmacionRetiroComponent
+          onConfirm={confirmarRetiro}
+          onCancel={cancelarRetiro}
+        />
       )}
     </div>
   );

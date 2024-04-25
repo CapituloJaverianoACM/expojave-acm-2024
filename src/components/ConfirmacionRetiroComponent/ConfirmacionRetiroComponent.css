@@ -1,0 +1,25 @@
+.confirm-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.confirm-buttons button{
+    padding: 10px 20px;
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    font-size: 15px;
+}
+
+.confirm-buttons button:hover{
+    scale: 1.1;
+}
+
+.terindes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
