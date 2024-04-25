@@ -1,32 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
-import { Pregunta } from './models/preguntaModel';
+import {preguntas} from './data/preguntas.ts' // con  Typescript y el modelo
 import logoACM from './assets/images/acm_logo.png';
 import ReglasComponent from './components/ReglasComponent/ReglasComponent';
+//import preguntas from './data/preguntas.json'; //Con Json
 
 
-const preguntas: Pregunta[] = [
-  {
-    id: 1,
-    pregunta: "¿Cuál es la capital de Francia?",
-    opcion: ["Madrid", "Berlín", "París", "Lisboa"],
-    respuesta: "París"
-  },
-  {
-    id: 2,
-    pregunta: "¿Cuánto es 2 + 2?",
-    opcion: ["3", "4", "5", "6"],
-    respuesta: "4"
-  },
-  {
-    id: 3,
-    pregunta: "¿Cuál es la capital de Portugal?",
-    opcion: ["Madrid", "Berlín", "París", "Lisboa"],
-    respuesta: "Lisboa"
+function prguntasAleatorias(array: any[]) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; 
   }
-  
-
-];
+}
 
 function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
@@ -34,10 +19,13 @@ function App() {
   const [puntaje, setPuntaje] = useState<number>(0);
   const [mostrarReglamento, setMostrarReglamento] = useState<boolean>(true);
 
+  useEffect(() => {
+    prguntasAleatorias(preguntas);
+  }, []);
+
   const handleAnswerOptionClick = (isCorrect: boolean) => {
     if (isCorrect) {
       setPuntaje(puntaje + 1);
-
       const siguientePregunta = currentQuestionIndex + 1;
       if (siguientePregunta < preguntas.length) {
         setCurrentQuestionIndex(siguientePregunta);

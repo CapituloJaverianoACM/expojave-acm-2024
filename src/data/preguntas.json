@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "pregunta": "¿Cuál es la capital de Francia?",
+      "opcion": ["Madrid", "Berlín", "París", "Lisboa"],
+      "respuesta": "París"
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuánto es 2 + 2?",
+      "opcion": ["3", "4", "5", "6"],
+      "respuesta": "4"
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cuál es la capital de Portugal?",
+      "opcion": ["Madrid", "Berlín", "París", "Lisboa"],
+      "respuesta": "Lisboa"
+    }
+  ]
+  
