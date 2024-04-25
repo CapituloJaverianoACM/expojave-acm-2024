@@ -28,6 +28,15 @@
     text-align: center;
 }
 
+.puntaje-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
 .answer-section{
     margin-top: 20px;
 }
