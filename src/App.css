@@ -72,3 +72,25 @@
     background-color: #d32f2f;
   }
   
+
+  .instagram-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 20px;
+    height: auto ;
+  }
+  
+  .puntaje-section {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  

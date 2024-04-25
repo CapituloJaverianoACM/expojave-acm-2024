@@ -36,3 +36,8 @@
     display: flex;
     justify-content: center;
 }
+
+.Suerte p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
