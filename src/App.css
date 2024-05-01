@@ -1,14 +1,11 @@
 .App{
-    background: radial-gradient(circle, #409E8D 8%, #24262B 88%);
-    background-color: (45deg, #409E8D 8%, #24262B 88%);
+    background: radial-gradient(circle, #2237b6 8%, #24262B 88%);
     height: 100vh;
     color: whitesmoke;
     font-size: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 .imagenLogo{
@@ -47,13 +44,13 @@
     width: 300px;
     border-radius: 20px;
     border:none;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     font-size: 15px;
     color: black;
 }
 
-.answer-section button:hover{
-    scale: 1.1;
+.answer-section button:active {
+    transform: scale(1.5);
 }
 
 .retirarse-button {
@@ -68,9 +65,13 @@
     margin-top: 20px;
   }
   
-  .retirarse-button:hover {
+.retirarse-button:hover {
     background-color: #d32f2f;
-  }
+}
+
+.retirarse-button button:active {
+    transform: scale(1.5);
+}
   
 
   .instagram-message {
@@ -93,4 +94,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+
+  .question-text {
+      padding: 20px;
+  }
