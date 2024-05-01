@@ -27,12 +27,12 @@ export const preguntas: Pregunta[] = [
         "id": 3,
         "pregunta": "¿Qué es github?",
         "opcion": [
-            "Una plataforma colaborativa para alojamiento de proyectos de inteligencia artificial que permite la interacción en tiempo real",
-            "Un sistema integral de gestión de proyectos y seguimiento de errores utilizado principalmente en el desarrollo de software",
-            "Un sistema de control de versiones de código abierto utilizado para colaborar en proyectos de programación",
-            "Una red social para desarrolladores que facilita la discusión y el intercambio de scripts y programas a nivel global"
+            "Una plataforma colaborativa para IA.",
+            "Un sistema de gestion de errores de codigo.",
+            "Un sistema de control de versiones.",
+            "Una red social para desarrolladores."
         ],
-        "respuesta": "Un sistema de control de versiones de código abierto utilizado para colaborar en proyectos de programación"
+        "respuesta": "Un sistema de control de versiones."
     },
     {
         "id": 4,
@@ -71,7 +71,7 @@ export const preguntas: Pregunta[] = [
         "id": 7,
         "pregunta": "¿Cuál es la diferencia entre JavaScript y TypeScript?",
         "opcion": [
-            "JS no acepta Programación Orientada a Objetos (POO) mientras que TS si",
+            "JS no acepta POO mientras que TS si",
             "JS es interpretado, mientras que TS añade tipado.",
             "No hay ninguna diferencia entre ambos.",
             "TS es interpretado, mientras que JS añade tipado."
@@ -91,14 +91,14 @@ export const preguntas: Pregunta[] = [
     },
     {
         "id": 9,
-        "pregunta": "¿Qué es un CDN en redes y telecomunicaciones?",
+        "pregunta": "¿Para que sirve un CDN en redes y telecomunicaciones?",
         "opcion": [
-            "Una red de distribución de contenido que entrega de datos de manera rápida.",
-            "Una cadena de televisión.",
-            "Círculo de Datos Nobles es una red de distribución de información para pasar datos a bajo costo.",
-            "Un CDN es un Camino de Datos Nublados, un sendero virtual donde la información se pierde en la neblina digital."
+            "Para entregar datos de manera rápida.",
+            "Para transmitir partidos.",
+            "Para pasar datos moviles sin costo.",
+            "Para enviar mensajes a la nube."
         ],
-        "respuesta": "Una red de distribución de contenido que entrega de datos de manera rápida."
+        "respuesta": "Para entregar datos de manera rápida."
     },
     {
         "id": 10,
@@ -115,12 +115,12 @@ export const preguntas: Pregunta[] = [
         "id": 11,
         "pregunta": "¿Qué es una dirección IP?",
         "opcion": [
-            "Un identificador para mi casa en internet.",
-            "Un identificador numérico para cada dispositivo que usa internet.",
-            "Un identificador alfanumérico sólo para computadores que usan internet.",
-            "Un identificador para saber que tan cerca o lejos estoy de una señal de Wi-Fi."
+            "Un id para mi casa en internet.",
+            "Un id numérico para cada dispositivo que usa internet.",
+            "Un id alfanumérico sólo para computadores que usan internet.",
+            "Un id para ver redes cercanas."
         ],
-        "respuesta": "Un identificador numérico para cada dispositivo que usa internet."
+        "respuesta": "Un id numérico para cada dispositivo que usa internet."
     },
     {
         "id": 12,
@@ -159,12 +159,12 @@ export const preguntas: Pregunta[] = [
         "id": 15,
         "pregunta": "¿Cuál es la mejor descripción del principio de encapsulamiento en la programación orientada a objetos?",
         "opcion": [
-            "Ocultar detalles internos y permitir acceso a través de métodos públicos.",
+            "Ocultar detalles internos y controlar acceso.",
             "Heredar propiedades y comportamientos de una clase base.",
             "Adaptarse a diferentes tipos de datos.",
             "Interactuar con otros objetos de manera dinámica."
         ],
-        "respuesta": "Ocultar detalles internos y permitir acceso a través de métodos públicos."
+        "respuesta": "Ocultar detalles internos y controlar acceso."
     },
     {
         "id": 16,
@@ -353,9 +353,9 @@ export const preguntas: Pregunta[] = [
         "pregunta": "¿Cuál de las siguientes opciones describe mejor el origen del término 'bug' en el contexto de la informática?",
         "opcion": [
             "Por un insecto atrapado en una computadora.",
-            "Se originó como un término coloquial para describir problemas.",
-            "Por Charles Babbage, para describir errores en sus máquinas analíticas.",
-            "En los primeros días de la computación para referirse a problemas en el software."
+            "Como término coloquial para describir problemas.",
+            "Por Charles Babbage, para describir errores en su trabajo.",
+            "En el nacimiento del Software, para mandar errores."
         ],
         "respuesta": "Por un insecto atrapado en una computadora."
     }
