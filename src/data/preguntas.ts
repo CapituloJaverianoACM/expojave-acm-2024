@@ -358,6 +358,193 @@ export const preguntas: Pregunta[] = [
             "En el nacimiento del Software, para mandar errores."
         ],
         "respuesta": "Por un insecto atrapado en una computadora."
+    },
+    {
+        "id": 34,
+        "pregunta": "¿En qué ciudad se encuentra la famosa Torre Eiffel?",
+        "opcion": [
+            "Berlín",
+            "Londres",
+            "París",
+            "Madrid"
+        ],
+        "respuesta": "París"
+    },
+    {
+        "id": 35,
+        "pregunta": "¿Cuál es el río más largo del mundo?",
+        "opcion": [
+            "Río Amazonas",
+            "Río Nilo",
+            "Río Misisipi",
+            "Río Yangtsé"
+        ],
+        "respuesta": "Río Amazonas"
+    },
+    {
+        "id": 36,
+        "pregunta": "¿Qué elemento químico tiene el símbolo 'O'?",
+        "opcion": [
+            "Oro",
+            "Osmio",
+            "Oxígeno",
+            "Oligisto"
+        ],
+        "respuesta": "Oxígeno"
+    },
+    {
+        "id": 37,
+        "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?",
+        "opcion": [
+            "Lope de Vega",
+            "Miguel de Cervantes",
+            "Federico García Lorca",
+            "Pablo Neruda"
+        ],
+        "respuesta": "Miguel de Cervantes"
+    },
+    {
+        "id": 38,
+        "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+        "opcion": [
+            "Venus",
+            "Mercurio",
+            "Tierra",
+            "Marte"
+        ],
+        "respuesta": "Mercurio"
+    },
+    {
+        "id": 39,
+        "pregunta": "¿Qué país es conocido como 'la tierra del sol naciente'?",
+        "opcion": [
+            "China",
+            "Japón",
+            "Corea del Sur",
+            "India"
+        ],
+        "respuesta": "Japón"
+    },
+    {
+        "id": 40,
+        "pregunta": "¿Qué famoso pintor es conocido por haber cortado su propia oreja?",
+        "opcion": [
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Claude Monet",
+            "Salvador Dalí"
+        ],
+        "respuesta": "Vincent van Gogh"
+    },
+    {
+        "id": 41,
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "opcion": [
+            "Océano Atlántico",
+            "Océano Pacífico",
+            "Océano Índico",
+            "Océano Antártico"
+        ],
+        "respuesta": "Océano Pacífico"
+    },
+    {
+        "id": 42,
+        "pregunta": "¿Qué teorema establece que en cualquier triángulo, el cuadrado de la longitud de la hipotenusa es igual a la suma de los cuadrados de las longitudes de los otros dos lados?",
+        "opcion": [
+            "Teorema de Pitágoras",
+            "Teorema de Euler",
+            "Teorema de Fermat",
+            "Teorema de Pascal"
+        ],
+        "respuesta": "Teorema de Pitágoras"
+    },
+    {
+        "id": 43,
+        "pregunta": "¿En qué año cayó el muro de Berlín, marcando un punto de inflexión en la historia europea?",
+        "opcion": [
+            "1989",
+            "1991",
+            "1987",
+            "1990"
+        ],
+        "respuesta": "1989"
+    },
+    {
+        "id": 44,
+        "pregunta": "¿Qué elemento tiene el número atómico 79?",
+        "opcion": [
+            "Plata",
+            "Oro",
+            "Plomo",
+            "Mercurio"
+        ],
+        "respuesta": "Oro"
+    },
+    {
+        "id": 45,
+        "pregunta": "¿Quién fue el primer emperador romano?",
+        "opcion": [
+            "Julio César",
+            "Augusto",
+            "Nerón",
+            "Tiberio"
+        ],
+        "respuesta": "Augusto"
+    },
+    {
+        "id": 46,
+        "pregunta": "¿Qué autor escribió 'Cien años de soledad'?",
+        "opcion": [
+            "Gabriel García Márquez",
+            "Mario Vargas Llosa",
+            "Julio Cortázar",
+            "Jorge Luis Borges"
+        ],
+        "respuesta": "Gabriel García Márquez"
+    },
+    {
+        "id": 47,
+        "pregunta": "¿Qué famoso científico formuló las leyes del movimiento planetario en el siglo XVII?",
+        "opcion": [
+            "Galileo Galilei",
+            "Isaac Newton",
+            "Johannes Kepler",
+            "Tycho Brahe"
+        ],
+        "respuesta": "Johannes Kepler"
+    },
+    {
+        "id": 48,
+        "pregunta": "¿Qué filósofo es conocido por su frase 'Pienso, luego existo'?",
+        "opcion": [
+            "Platón",
+            "René Descartes",
+            "Aristóteles",
+            "Sócrates"
+        ],
+        "respuesta": "René Descartes"
+    },
+    {
+        "id": 49,
+        "pregunta": "¿Qué estructura molecular comparte el diamante y el grafito?",
+        "opcion": [
+            "Carbono",
+            "Silicio",
+            "Oxígeno",
+            "Azufre"
+        ],
+        "respuesta": "Carbono"
+    },
+    {
+        "id": 50,
+        "pregunta": "¿Cuál es la capital histórica del imperio inca?",
+        "opcion": [
+            "Machu Picchu",
+            "Lima",
+            "Cuzco",
+            "Quito"
+        ],
+        "respuesta": "Cuzco"
     }
 ];
 
